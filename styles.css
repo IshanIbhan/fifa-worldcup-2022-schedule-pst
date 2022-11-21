@@ -1,0 +1,75 @@
+body {
+    margin: 0 auto;  
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 0.1rem;
+}
+.title{
+    text-align: center;
+    background-color: darkgreen;
+    padding: 1px;
+    margin-bottom: 30px;
+}
+.a{
+    background-color: cadetblue;
+}
+.b{
+    background-color: darkorange;
+}
+.c{
+    background-color: sandybrown;
+} 
+.d{
+    background-color: gold;
+}
+.f{
+    background-color: darkolivegreen;
+}
+.e{
+    background-color: lightseagreen;
+}
+.g{
+    background-color: lightslategrey;
+}
+.h{
+    background-color: plum;
+}
+.orange{
+    background-color: rgb(154, 202, 23);
+}
+.cyan{
+    background-color: lightcyan; 
+}
+.beige{
+    background-color: tan;
+}
+.aliceblue{
+    background-color: steelblue;
+}
+
+@media print {
+    .pagebreak {
+        clear: both;
+        page-break-after: always;
+    }
+}
+.small-font {
+    font-size: 14px;
+}
+.gray{
+    background-color: gray;
+}
+.font{
+    font-size: 12px;
+}
+p{
+    float: right;
+    font-family:;
+}

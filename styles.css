@@ -6,8 +6,12 @@ body {
 
 table {
     margin: 0 auto;
-    border: 1px solid black;
+    border: 1px solid rgb(148, 132, 132);
     border-collapse: collapse;
+}
+
+td{
+    border: 1.5px solid rgb(206, 188, 188);
 }
 
 th,

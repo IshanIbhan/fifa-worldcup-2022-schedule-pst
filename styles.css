@@ -1,57 +1,82 @@
 body {
-    margin: 0 auto;  
+    margin: 0 auto;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 table {
     margin: 0 auto;
     border: 1px solid black;
     border-collapse: collapse;
 }
-th, td {
+
+th,
+td {
     padding: 0.1rem;
 }
-.title{
+
+.title {
     text-align: center;
     background-color: darkgreen;
     padding: 1px;
     margin-bottom: 30px;
 }
-.a{
+
+.a {
     background-color: cadetblue;
 }
-.b{
+
+.b {
     background-color: darkorange;
 }
-.c{
+
+.c {
     background-color: sandybrown;
-} 
-.d{
+}
+
+.d {
     background-color: gold;
 }
-.f{
+
+.f {
     background-color: darkolivegreen;
 }
-.e{
+
+.e {
     background-color: lightseagreen;
 }
-.g{
+
+.g {
     background-color: lightslategrey;
 }
-.h{
+
+.h {
     background-color: plum;
 }
-.orange{
+
+.orange {
     background-color: rgb(154, 202, 23);
 }
-.cyan{
-    background-color: lightcyan; 
+
+.cyan {
+    background-color: lightcyan;
 }
-.beige{
+
+.beige {
     background-color: tan;
 }
-.aliceblue{
+
+.aliceblue {
     background-color: steelblue;
+}
+
+.page-header {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
 }
 
 @media print {
@@ -60,16 +85,20 @@ th, td {
         page-break-after: always;
     }
 }
+
 .small-font {
     font-size: 14px;
 }
-.gray{
+
+.gray {
     background-color: gray;
 }
-.font{
+
+.font {
     font-size: 12px;
 }
-p{
+
+p {
     float: right;
-    font-family:;
+    font-family: ;
 }
